@@ -1,0 +1,143 @@
+/* SECTION */
+body {
+  background-color: #b3e8f7;
+  padding-top: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+
+/* 6. Section Our Services */
+/* Header Our Services */
+.our-services {
+  text-align: center;
+}
+p.text-our-services {
+  max-width: 500px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+/* Card Our Services */
+/* img-our-services */
+.img-our-services {
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+  padding-top: 25px;
+}
+/* Content-our-services */
+.container-our-services {
+  margin: 50px auto;
+}
+.card {
+  border: 1px solid #aaaaaa;
+  border-radius: 10px;
+  background-color: #ffffff;
+  overflow: hidden;
+  margin: 10px;
+  box-sizing: border-box;
+  box-shadow: #aaaaaa;
+}
+.card .header {
+  height: 250px;
+  background-color: #ffffff;
+}
+.card .content {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+/* Font Card Our Services */
+h6 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #13287e;
+  font-family: "Poppins", sans-serif;
+}
+.bold {
+  font-weight: 600;
+}
+
+p {
+  opacity: 80%;
+}
+
+/* ---------------------------------------------------- */
+/*  * ********************************************** * */
+/*  | 10. Awal Section Footer ********************** |*/
+/*  * ********************************************** */
+/*  | *********** Awal Section Footer ************ |*/
+.section-footer {
+  display: b;
+  margin: 20px auto;
+  background-color: #0d6efd;
+  color: #ffffff;
+  padding: 50px;
+  text-align: left;
+  justify-content: space-between;
+  border: 1px;
+  border-radius: 5px;
+}
+
+/*  | *********** AkhirSection Footer *********** |*/
+/*                                                */
+/*  | ** Bagian Footer ** ********************* |*/
+.container-footer {
+  text-align: left;
+}
+
+.kolom {
+  box-sizing: border-box;
+}
+
+.kolom.robovision {
+  flex: 3.5;
+  padding-right: 10px;
+}
+
+.kolom.privacy-tos {
+  flex: 3;
+}
+
+.kolom.navigate {
+  flex: 2.5;
+}
+
+.kolom.contact-us {
+  flex: 3;
+}
+
+.rounded-pill {
+  white-space: nowrap;
+}
+
+/*  | *********** RESPONSIVE ********** |*/
+@media (min-width: 600px) {
+  /*Responsive Our Services */
+  .card {
+    display: flex;
+  }
+  .container-our-services {
+    display: flex;
+  }
+
+  /*Responsive Footer */
+  .container-footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .section-footer {
+    display: flex;
+    align-items: center;
+  }
+
+  .readmore {
+    margin: 12px;
+  }
+}
+
+/*  | *********** Bagian Footer ********** |*/
