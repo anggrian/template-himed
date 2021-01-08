@@ -13,8 +13,8 @@ section {
 .content {
   text-align: center;
 }
-h2 {
-  font-size: 30px;
+.font-header {
+  font-size: 25px;
   color: #13287e;
   padding: 15px;
 }
@@ -74,8 +74,8 @@ h6 {
 /*  | 7. Section Frequently Questions ************** |*/
 /*  * ********************************************** */
 .frequntly {
-  height: 250px;
-  padding-bottom: 50px;
+  height: 230px;
+  padding-bottom: 15px;
 }
 .btn-primary {
   color: #fff;
@@ -85,6 +85,83 @@ h6 {
   border-radius: 25px;
   background-image: linear-gradient(to right, #21d397 0%, #7450fe 100%);
   padding: 15px 25px;
+}
+.btn-frequntly {
+  width: 100%;
+  text-align: left;
+}
+/* ---------------------------------------------------- */
+/*  * ********************************************** * */
+/*  | 8. Section Our Pricing Plans ************** |*/
+/*  * ********************************************** */
+.card-our-pricing-plans {
+  justify-content: center;
+}
+.card-opp {
+  border: 1px solid #eeeeee;
+  width: 270px;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+  padding-top: 40px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+}
+.h5-oop {
+  color: #222222;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.h1-oop {
+  font-size: 48px;
+  margin-bottom: 25px;
+  line-height: 1;
+  color: #3964f9;
+}
+.p-oop {
+  color: #888888;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+  line-height: 1;
+}
+.table-oop {
+  box-sizing: border-box;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+.p-sub-opp {
+  color: #888;
+}
+
+/* ---------------------------------------------------- */
+/*  * ********************************************** * */
+/*  | 9. Awal Section Lovely ********************** |*/
+/*  * ********************************************** */
+/*  | *********** Awal Section Lovely ************ |*/
+.testimonial-image img {
+  border-radius: 50%;
+}
+.testimonial-image {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+}
+.header-img {
+  padding: 25px;
+}
+.single-testimonial {
+  border-radius: 15px;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+}
+.img-lovly {
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+}
+.admin_text {
+  padding: 25px;
 }
 
 /* ---------------------------------------------------- */
@@ -102,6 +179,7 @@ h6 {
   justify-content: space-between;
   border: 1px;
   border-radius: 5px;
+  margin-bottom: 100px;
 }
 
 /*  | *********** AkhirSection Footer *********** |*/
@@ -154,16 +232,36 @@ h6 {
   .frequntly {
     height: 450px;
   }
+  .menu-frequntly {
+    padding-left: 20px;
+  }
+  .btn-frequntly {
+    width: 100%;
+    text-align: left;
+  }
 
-  /*Responsive Footer */
+  /* 8.  */
+  .card-our-pricing-plans {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Responsive Footer */
   .container-footer {
     display: flex;
     text-align: left;
+  }
+  .font-header {
+    font-size: 30px;
+    color: #13287e;
+    padding: 15px;
+    font-weight: 650;
   }
 
   .section-footer {
     display: flex;
     align-items: center;
+    margin-bottom: 100px;
   }
 
   .readmore {
