@@ -6,9 +6,8 @@ body {
 }
 section {
   padding-top: 50px;
-  background-color: #b3e8f7;
-  margin-bottom: 5px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
+  background-color: rgb(234, 249, 253);
 }
 .content {
   text-align: center;
@@ -39,7 +38,6 @@ p.text-content {
 }
 /* Content-our-services */
 .card {
-  border: 1px solid #aaaaaa;
   border-radius: 10px;
   background-color: #ffffff;
   overflow: hidden;
@@ -78,13 +76,35 @@ h6 {
   padding-bottom: 15px;
 }
 .btn-primary {
-  color: #fff;
+  /* color: #fff;
   border: 1px solid #f2f4f8;
   border-top: 1px solid #f2f4f8;
   margin-bottom: 15px;
   border-radius: 25px;
   background-image: linear-gradient(to right, #21d397 0%, #7450fe 100%);
-  padding: 15px 25px;
+  padding: 5px 25px; */
+  position: relative;
+  z-index: 1;
+  min-width: 160px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 0 20px;
+  text-align: center;
+  text-transform: uppercase;
+  background-size: 200% auto;
+  color: #fff;
+  box-shadow: 0 3ox 20px rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  background-image: -webkit-linear-gradient(
+    left,
+    #21d397 0%,
+    #7450fe 51%,
+    #21d397 100%
+  );
 }
 .btn-frequntly {
   width: 100%;
@@ -98,12 +118,19 @@ h6 {
   justify-content: center;
 }
 .card-opp {
-  border: 1px solid #eeeeee;
   width: 270px;
+  border-radius: 10px;
   box-sizing: border-box;
   padding-bottom: 20px;
   padding-top: 40px;
   box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+}
+.card-opp-noactive {
+  width: 270px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+  padding-top: 40px;
 }
 .h5-oop {
   color: #222222;
@@ -132,7 +159,9 @@ h6 {
 .p-sub-opp {
   color: #888;
 }
-
+.pad-opp {
+  padding-bottom: 30px;
+}
 /* ---------------------------------------------------- */
 /*  * ********************************************** * */
 /*  | 9. Awal Section Lovely ********************** |*/
@@ -161,7 +190,15 @@ h6 {
   align-items: center;
 }
 .admin_text {
-  padding: 25px;
+  padding-top: 20px;
+}
+.testimonial-description {
+  padding: 15px;
+}
+.ptd {
+  color: #888888;
+  font-weight: 500;
+  font-size: 15px;
 }
 
 /* ---------------------------------------------------- */
@@ -212,6 +249,16 @@ h6 {
 
 .rounded-pill {
   white-space: nowrap;
+}
+a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 14px;
+}
+footer {
+  padding-top: 50px;
+  background-color: rgba(14, 0, 204, 0.507);
+  padding-bottom: 100px;
 }
 /*  | *********** Bagian Footer ********** |*/
 
