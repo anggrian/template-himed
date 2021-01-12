@@ -265,7 +265,46 @@ p {
 
 /*  | *********** RESPONSIVE ********** |*/
 @media (min-width: 600px) {
-  /*Responsive Our Services */
+  /* 4  */
+  .card-hiw {
+    display: flex;
+  }
+  .colored-icon {
+    padding: 30px;
+    position: relative;
+    border: 2px solid #00dcd8;
+    background-image: linear-gradient(to right, #21d397 0%, #7450fe 100%);
+    max-width: 140px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+  }
+  .service_icon {
+    padding-top: 20px;
+  }
+
+  /* 5 Core Our Feature */
+  .modal-cof {
+    box-sizing: border-box;
+  }
+  .content-cof {
+    display: flex;
+    align-items: center;
+  }
+  .img-cof-about {
+    height: 400px;
+  }
+  /* content 5*/
+  .sub-cof {
+    align-items: center;
+  }
+  .img-cof-feature {
+    max-width: 57px;
+    height: auto;
+  }
+  .card-body {
+    text-align: left;
+  }
+  /* 6 Our Services */
   .card {
     display: flex;
   }
