@@ -15,106 +15,7 @@
     <title>HIMED | ANGGRIAN</title>
   </head> 
   <body>
-      <!-- Navbar -->
-      <nav class="navbar">
-        <div class="content">
-          <div class="logo">
-            <a href="#">Robovision</a>
-          </div>
-          <ul class="menu-list">
-            <div class="icon cancel-btn">
-              <i class="fas fa-times"></i>
-            </div>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT US</a></li>
-            <li><a href="#">SERVICES</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">BLOG</a></li>
-            <li><a href="#">CONTACT</a></li>
-          </ul>
-          <div class="icon menu-btn">
-            <i class="fas fa-bars"></i>
-          </div>
-        </div>
-      </nav>
-      <div class="banner"></div>
-      
-    
-      <script>
-        const body = document.querySelector("body");
-        const navbar = document.querySelector(".navbar");
-        const menuBtn = document.querySelector(".menu-btn");
-        const cancelBtn = document.querySelector(".cancel-btn");
-        menuBtn.onclick = ()=>{
-          navbar.classList.add("show");
-          menuBtn.classList.add("hide");
-          body.classList.add("disabled");
-        }
-        cancelBtn.onclick = ()=>{
-          body.classList.remove("disabled");
-          navbar.classList.remove("show");
-          menuBtn.classList.remove("hide");
-        }
-        window.onscroll = ()=>{
-          this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
-        }
-      </script>
-      <!-- Navbar -->
-
-        <!-- 1. Awal Section  -->
-        <section class="section-home">
-            <div class="container">
-                <div class="home">
-                    <h3 class="h3-home">Creative landing page template</h3>
-                    <h1 class="bold h1-home">IT Automation Experts for AI Soluations and job Schaduling.</h1>
-                    <p>Lorem ipsum dolor sit amet, adipisicing elit. Quod corrupti laborum, quasi? Dolor sapiente amet optio harum dolores, voluptate, tempora dolorem fugiat fuga autem .</p>
-                    <div class="btn-home">
-                        <div class="btn">contact us</div>
-                        <div class="btn">learn more</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- 1. Akhir Section  -->
-
-        <!-- 2. Awal Section  -->
-        <!-- <section class="section-dua">
-            <div class="container">
-                <div class="realtime">
-                    <div class="realtime-col realtime-col-satu">
-                        <div class="kolom-2 card-satu"><h5>Realtime Live Chat</h5>
-                            <p>Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit. Tenetur quae dignissimos atque minima sit amet</p></div>
-                        <div class="kolom-2 card-dua"><h5>Chart Modules</h5>
-                            <p>Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit. Tenetur quae dignissimos atque minima sit amet</p></div>
-                        <div class="kolom-2 card-tiga"><h5>Social Assistant</h5>
-                            <p>Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit. Tenetur quae dignissimos atque minima sit amet</p></div>
-                        <div class="kolom-2 card-empat"><h5>AI Solutions</h5>
-                            <p>Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit. Tenetur quae dignissimos atque minima sit amet</p></div>
-                    </div>
-                    <div class="realtime-col realtime-col-dua">
-                        <h4>A Straight Forward Structare for Powerful Automation Results.</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam posuere tortor, sit amet convallis nunc scelerisque in.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo quo laboriosam, dolorum ducimus aliquam consequuntur!</p>
-                        <button class="btn  btn-realtime">Read More</button>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- 2. Akhir Section  -->
-        
-        <!-- 3. Awal Section  -->
-        <section class="section-tiga">
-            <div class="container">
-                <div class="result">
-                    <h4 class="h4-result">A Straight Forward Structare for Powerful Results.</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at dictum risus, non suscipit arcu. Quisque aliquam posuere tortor, sit amet convallis nunc scelerisque in.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo quo laboriosam, dolorum ducimus aliquam consequuntur!</p>
-                    <button class="btn btn-result">READ MORE</button>
-                </div>
-            </div>
-        </section>
-        <!-- 3. Akhir Section  -->
-
+   
         <!-- 4. Awal Section  How it works-->
         <section>
             <div class="container">
@@ -181,7 +82,7 @@
                             <img src="img/about/about1.svg" alt="" class="img-cof-about">
                         </div>
                         <div class="modal-cof">
-                            <div class="card mb-3" style="max-width: 540px;">
+                            <div class="card mb-3">
                                 <div class="row g-0 sub-cof">
                                   <div class="col-md-4">
                                     <img src="img/feature/feature1.svg" alt="..." class="img-cof-feature">
@@ -194,7 +95,7 @@
                                   </div>
                                 </div>
                             </div>
-                            <div class="card mb-3" style="max-width: 540px;">
+                            <div class="card mb-3">
                                 <div class="row g-0 sub-cof">
                                   <div class="col-md-4">
                                     <img src="img/feature/feature2.svg" alt="..." class="img-cof-feature">
@@ -207,7 +108,7 @@
                                   </div>
                                 </div>
                             </div>
-                            <div class="card mb-3" style="max-width: 540px;">
+                            <div class="card mb-3">
                                 <div class="row g-0 sub-cof">
                                   <div class="col-md-4">
                                     <img src="img/feature/feature3.svg" alt="..." class="img-cof-feature">
@@ -323,7 +224,7 @@
                         <p class="text-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.</p>
                     </div>
                     <!-- Card Our Pricing Plans -->
-                    <!-- <div class="card-our-pricing-plans">
+                    <div class="card-our-pricing-plans">
                         <div class="col-lg-4 col-md-6 pad-opp d-flex justify-content-center">
                             <div class="card-opp-noactive">
                                 <div class="header-oop">
@@ -381,7 +282,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </section>
