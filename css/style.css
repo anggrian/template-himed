@@ -1,3 +1,159 @@
+/* Navbar */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* custom scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::selection {
+  background: rgb(0, 123, 255, 0.3);
+}
+.content-nav {
+  max-width: 1250px;
+  margin: auto;
+  padding: 0 30px;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  padding: 25px 0;
+  transition: all 0.3s ease;
+}
+.navbar.sticky {
+  background: #c1daf5;
+  padding: 10px 0;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.navbar .content-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo a {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.navbar .menu-list {
+  display: inline-flex;
+}
+.menu-list li {
+  list-style: none;
+}
+.menu-list li a {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.menu-list li a:hover {
+  color: #007bff;
+}
+.banner {
+  background: url("banner.jpg") no-repeat;
+  height: 15vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.about {
+  padding: 30px 0;
+}
+.about .title {
+  font-size: 38px;
+  font-weight: 700;
+}
+.about p {
+  padding-top: 20px;
+  text-align: justify;
+}
+.icon {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+.menu-list .cancel-btn {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+@media (max-width: 1230px) {
+  .content-nav {
+    padding: 0 60px;
+  }
+}
+@media (max-width: 1100px) {
+  .content-nav {
+    padding: 0 40px;
+  }
+}
+@media (max-width: 900px) {
+  .content-nav {
+    padding: 0 30px;
+  }
+}
+@media (max-width: 868px) {
+  body.disabled {
+    overflow: hidden;
+  }
+  .icon {
+    display: block;
+  }
+  .icon.hide {
+    display: none;
+  }
+  .navbar .menu-list {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    max-width: 400px;
+    left: -100%;
+    top: 0px;
+    display: block;
+    padding: 40px 0;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+  }
+  .navbar.show .menu-list {
+    left: 0%;
+  }
+  .navbar .menu-list li {
+    margin-top: 45px;
+  }
+  .navbar .menu-list li a {
+    font-size: 23px;
+    margin-left: -100%;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .navbar.show .menu-list li a {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 380px) {
+  .navbar .logo a {
+    font-size: 27px;
+  }
+}
+
+/* Navbar */
+
 /* SECTION */
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -23,6 +179,151 @@ p.text-content {
   padding-bottom: 70px;
   opacity: 80%;
 }
+/*  */
+/*  */
+/*  */
+/*1 Section Home */
+/* .section-home {
+  background-image: url(../img/bg-img/header-1.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+} */
+.h3-home {
+  font-size: 18px;
+  width: 80%;
+}
+.h1-home {
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #272e3a;
+  width: 80%;
+}
+
+.home p {
+  color: #888888;
+  font-size: 18px;
+  margin-bottom: 30px;
+  margin-top: 0;
+  line-height: 1.9;
+}
+/* btn section 1  */
+.btn {
+  color: #fff;
+  border: 1px solid #f2f4f8;
+  border-top: 1px solid #f2f4f8;
+  border-radius: 25px;
+  background-image: linear-gradient(to right, #21d397 0%, #7450fe 100%);
+}
+/*1  Akhir Section Home */
+
+/* Section 2, Real Time chat ( Features) */
+/* .realtime {
+  margin: 100px;
+} */
+
+/* .realtime-col {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.realtime-col-satu {
+  width: 100%;
+}
+
+.realtime-col h4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #354168;
+  line-height: 1.4;
+}
+
+.realtime-col-dua {
+  vertical-align: bottom;
+}
+
+.realtime-col-dua p {
+  color: #888;
+  line-height: 1.9;
+  font-size: 15px;
+  margin-bottom: 1rem;
+}
+
+.kolom-2 {
+  width: 40%;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.kolom h5 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #fff;
+  line-height: 1.4;
+}
+
+.kolom p {
+  color: white;
+  line-height: 1.9;
+  margin-bottom: 1rem;
+}
+
+.card-satu {
+  background-color: #007bff;
+  text-align: center;
+}
+
+.card-dua {
+  background-color: #007bff;
+  text-align: center;
+}
+
+.card-tiga {
+  background-color: #007bff;
+  text-align: center;
+}
+
+.card-empat {
+  background-color: #007bff;
+  text-align: center;
+} */
+
+/* Section 3, Result */
+/* .section-tiga {
+  background-image: url("../img/bg-img/about-us.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: white;
+} */
+
+.result {
+  width: 100%;
+}
+
+.h4-result {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #354168;
+}
+
+.result p {
+  color: #888;
+  font-size: 15px;
+  line-height: 1.9;
+  margin-bottom: 1rem;
+}
+/* btn sec 3 */
+.btn-result {
+  margin-top: 30px;
+}
+/*  */
+/*  */
+/*  */
 
 /* ---------------------------------------------------- */
 /*  * ********************************************** * */
@@ -90,7 +391,7 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 .bold {
-  font-weight: 600;
+  font-weight: 600 !important;
 }
 
 /* ---------------------------------------------------- */
@@ -291,6 +592,80 @@ p {
 
 /*  | *********** RESPONSIVE ********** |*/
 @media (min-width: 600px) {
+  /* 1 Section Home */
+  /* .section-home {
+  background-image: url(../img/bg-img/header-1.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+} */
+
+  .home {
+    width: 45%;
+    /* margin: 200px 100px; */
+  }
+  .h1-home {
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #272e3a;
+  }
+  .home h3 {
+    font-size: 18px;
+  }
+  .home p {
+    color: #888888;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 0;
+    line-height: 1.9;
+  }
+  /* btn sec 1  */
+  .btn {
+    color: #fff;
+    border: 1px solid #f2f4f8;
+    border-top: 1px solid #f2f4f8;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #21d397 0%, #7450fe 100%);
+    padding: 15px 25px;
+  }
+
+  .btn-home .btn {
+    display: inline-block;
+  }
+  /* 1 Akhir Section Home */
+
+  /* Section 3, Result */
+  /* .section-tiga {
+  background-image: url("../img/bg-img/about-us.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: white;
+} */
+
+  .result {
+    width: 50%;
+  }
+
+  .h4-result {
+    width: 400px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #354168;
+    line-height: 1.4;
+  }
+
+  .result p {
+    color: #888;
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 1rem;
+  }
+  /* btn sec 3 */
+  .btn-result {
+    margin-top: 30px;
+  }
+  /* 3 AKhir section  */
+
   /* 4  */
   .card-hiw {
     display: flex;
@@ -317,7 +692,7 @@ p {
     align-items: center;
   }
   .img-cof-about {
-    height: 400px;
+    height: 450px;
   }
   /* content 5*/
   .sub-cof {
