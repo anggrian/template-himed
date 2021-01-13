@@ -19,7 +19,7 @@
 ::selection {
   background: rgb(0, 123, 255, 0.3);
 }
-.content-nav {
+.content {
   max-width: 1250px;
   margin: auto;
   padding: 0 30px;
@@ -36,7 +36,7 @@
   padding: 10px 0;
   box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
 }
-.navbar .content-nav {
+.navbar .content {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -66,7 +66,7 @@
 }
 .banner {
   background: url("banner.jpg") no-repeat;
-  height: 15vh;
+  height: 10vh;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -94,17 +94,17 @@
   top: 20px;
 }
 @media (max-width: 1230px) {
-  .content-nav {
+  .content {
     padding: 0 60px;
   }
 }
 @media (max-width: 1100px) {
-  .content-nav {
+  .content {
     padding: 0 40px;
   }
 }
 @media (max-width: 900px) {
-  .content-nav {
+  .content {
     padding: 0 30px;
   }
 }
