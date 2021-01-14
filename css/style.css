@@ -24,6 +24,74 @@ p.text-content {
   opacity: 80%;
 }
 /* Untuk tampilan mobile / Hanphone */
+/* <!-- 1. Awal Section  Creative landing page template (HOME)--> */
+.section-home {
+  background-image: url(../img/bg/ai2.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+}
+.home {
+  width: 80%;
+}
+.home h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.home h1 {
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #272e3a;
+  line-height: 1.3;
+}
+.home p {
+  color: #888888;
+  font-size: 14px;
+  margin-bottom: 30px;
+  line-height: 1.9;
+  width: 280px;
+  font-weight: 600;
+}
+.btn-home .btn {
+  color: #fff;
+  border: 1px solid #f2f4f8;
+  border-top: 1px solid #f2f4f8;
+  border-radius: 25px;
+  background-image: linear-gradient(to right, #21d397 0%, #7450fe 100%);
+  padding: 10px 30px;
+  font-weight: 600;
+}
+
+/* <!-- 3. Awal Section  A Straight Forward --> */
+.container-result {
+  justify-content: center;
+  padding: 20px;
+}
+.result {
+  width: 100%;
+  /* margin: 0px 0px 0px 50px; */
+  color: white;
+  /* padding: 20px; */
+}
+.result h4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #354168;
+  line-height: 1.4;
+  font-weight: 600;
+}
+.result p {
+  font-weight: bolder;
+  color: #888;
+  font-size: 15px;
+  line-height: 1.9;
+  margin-bottom: 1rem;
+}
+.gambar-result {
+  width: 100%;
+}
 /* <!-- 4. Awal Section  How it works--> */
 .service_icon {
   padding-top: 20px;
@@ -260,7 +328,51 @@ a p {
 }
 
 /*  | *********** RESPONSIVE  tampilan website ********** |*/
-@media (min-width: 600px) {
+@media (min-width: 769px) {
+  /* <!-- 1. Awal Section  Creative landing page template--> */
+  .home {
+    width: 50%;
+  }
+  .home h3 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .home h1 {
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #272e3a;
+  }
+  .home p {
+    color: #888888;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 0;
+    line-height: 1.9;
+    width: 95%;
+    font-weight: 600;
+  }
+
+  .btn-home .btn {
+    display: inline-block;
+  }
+  .result {
+    width: 60%;
+  }
+
+  /* <!-- 3. Awal Section  A Straight Forward --> */
+  .container-result {
+    box-sizing: border-box;
+    display: flex;
+  }
+  .result {
+    /* padding-left: 50px; */
+  }
+  .gambar-result {
+    width: 100%;
+  }
+
   /* <!-- 4. Awal Section  How it works--> */
   .card-hiw {
     display: flex;
