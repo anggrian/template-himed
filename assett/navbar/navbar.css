@@ -1,3 +1,6 @@
+body {
+  /* background-size: cover; */
+}
 /*0. Halaman Navbar */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 * {
@@ -30,11 +33,14 @@
   z-index: 2;
   padding: 25px 0;
   transition: all 0.3s ease;
+  background-color: transparent;
 }
 .navbar.sticky {
   background: #c1daf5;
   padding: 10px 0;
   box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  background-color: #d7dfef;
 }
 .navbar .content {
   display: flex;
@@ -49,6 +55,7 @@
 }
 .navbar .menu-list {
   display: inline-flex;
+  margin-bottom: 0 !important;
 }
 .menu-list li {
   list-style: none;

@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <nav class="navbar">
+  <nav class="navbar" style="position: fixed;">
     <div class="content" style="width: 100%;">
       <div class="logo">
         <a href="#">Robovision</a>
