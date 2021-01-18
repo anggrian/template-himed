@@ -7,7 +7,7 @@ body {
 section {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: rgb(234, 249, 253);
+  background-color: #fff;
 }
 .container .content {
   text-align: center;
@@ -62,6 +62,86 @@ p.text-content {
   background-image: linear-gradient(to right, #21d397 0%, #7450fe 100%);
   padding: 10px 30px;
   font-weight: 600;
+}
+/* 2 */
+/* Section 2, Real Time chat ( Features) */
+.realtime {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.realtime-col-satu {
+  vertical-align: auto;
+  width: 100%;
+}
+
+.realtime-col h4 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #354168;
+  line-height: 1.4;
+}
+
+.realtime-col-dua {
+  width: 100%;
+  align-self: center;
+}
+
+.realtime-col-dua p {
+  color: #888;
+  line-height: 1.9;
+  font-size: 15px;
+  margin-bottom: 1rem;
+}
+
+.kolom-lom {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.kolom-lom h5 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #fff;
+  line-height: 1.4;
+}
+
+.kolom-lom p {
+  color: white;
+  line-height: 1.9;
+  margin-bottom: 1rem;
+}
+
+.card-satu {
+  background-color: #007bff;
+  text-align: center;
+}
+
+.card-satu {
+  background-color: #007bff;
+  text-align: center;
+}
+
+.card-dua {
+  background-color: #007bff;
+  text-align: center;
+}
+
+.card-tiga {
+  background-color: #007bff;
+  text-align: center;
+}
+
+.card-empat {
+  background-color: #007bff;
+  text-align: center;
 }
 
 /* <!-- 3. Awal Section  A Straight Forward --> */
@@ -359,6 +439,86 @@ a p {
   }
   .result {
     width: 60%;
+  }
+  /* 2 */
+  /* Section 2, Real Time chat ( Features) */
+  .realtime {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .realtime-col-satu {
+    vertical-align: auto;
+    width: 50%;
+  }
+
+  .realtime-col h4 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #354168;
+    line-height: 1.4;
+  }
+
+  .realtime-col-dua {
+    width: 50%;
+    align-self: center;
+  }
+
+  .realtime-col-dua p {
+    color: #888;
+    line-height: 1.9;
+    font-size: 15px;
+    margin-bottom: 1rem;
+  }
+
+  .kolom-lom {
+    width: 45%;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .kolom-lom h5 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #fff;
+    line-height: 1.4;
+  }
+
+  .kolom-lom p {
+    color: white;
+    line-height: 1.9;
+    margin-bottom: 1rem;
+  }
+
+  .card-satu {
+    background-color: #007bff;
+    text-align: center;
+  }
+
+  .card-satu {
+    background-color: #007bff;
+    text-align: center;
+  }
+
+  .card-dua {
+    background-color: #007bff;
+    text-align: center;
+  }
+
+  .card-tiga {
+    background-color: #007bff;
+    text-align: center;
+  }
+
+  .card-empat {
+    background-color: #007bff;
+    text-align: center;
   }
 
   /* <!-- 3. Awal Section  A Straight Forward --> */
