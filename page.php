@@ -439,13 +439,13 @@
             </div>
             <!-- Awal Footer  -->
             <div class="container-footer">
-                <div class="kolom robovision">
+                <div class="kolom robovision pt-4">
                     <div class="footer-logo">
                         <a href="#"><img src="img/logo.png" alt="logo" class="img-robovision"> <span class="text-robovision">RoboVision</span> </a>
                     </div>
-                    <span class="text-header-robovision">
+                    <div class="text-header-robovision">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ducimus voluptatibus neque illo id repellat quisquam? Autem expedita earum quae laborum ipsum ad.
-                    </span>
+                    </div>
                     <div class="icon-footer pt-3">
                         <a href=""><i class="fab fa-facebook-square fa-2x"></i></a>
                         <a href=""><i class="fab fa-twitter-square fa-2x"></i></a>

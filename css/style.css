@@ -21,7 +21,7 @@ section {
 p.text-content {
   max-width: 500px;
   margin: 0 auto;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
   opacity: 80%;
 }
 /* Untuk tampilan mobile / Hanphone */
@@ -70,6 +70,7 @@ p.text-content {
   line-height: 1.9;
   width: 280px;
   font-weight: 600;
+  text-align: justify;
 }
 /* .btn-home .btn {
   color: #fff;
@@ -78,8 +79,8 @@ p.text-content {
   border-radius: 25px;
   background-image: linear-gradient(to right, #21d397 0%, #7450fe 100%);
   padding: 10px 30px;
-  font-weight: 600; */
-}
+  font-weight: 600; 
+} */
 /* 2 */
 /* Section 2, Real Time chat ( Features) */
 .realtime {
@@ -187,7 +188,9 @@ p.text-content {
   margin-bottom: 1rem;
 }
 .gambar-result {
-  width: 100%;
+  margin: auto;
+  display: block;
+  width: 60%;
 }
 /* <!-- 4. Awal Section  How it works--> */
 .service_icon {
@@ -212,9 +215,12 @@ h6.bold {
 }
 
 /* <!-- 5. Awal Section  Core Our Features--> */
+
 img.img-cof-about {
-  width: 100%;
-  padding-bottom: 15px;
+  padding: 30px;
+  margin: auto;
+  display: block;
+  width: 70%;
 }
 img.img-cof-feature {
   padding-top: 15px;
@@ -257,24 +263,42 @@ img.img-our-services {
   width: 100%;
   text-align: left;
 }
-/* tombol umum 
--> btn frequntly, btn our pricing plans */
+/* tombol umum */
 .btn-primary {
+  font-size: 12px;
   text-transform: uppercase;
   color: #fff;
-  border: 1px solid #f2f4f8;
+  border: 1px solid #f6f8f2;
   border-top: 1px solid #f2f4f8;
   margin-bottom: 15px;
   border-radius: 25px;
   background-image: linear-gradient(to right, #21d397 0%, #7450fe 100%);
-  padding: 5px 25px;
+  padding: 10px 25px;
   font-weight: 600;
   background-size: 200% auto;
+  letter-spacing: 1.5px;
+}
+/*-> btn frequntly, btn our pricing plans */
+.btn-frequntly {
+  color: #fff;
+  border: 1px solid #f6f8f2;
+  border-top: 1px solid #f2f4f8;
+  margin-bottom: 15px;
+  border-radius: 25px;
+  background-image: linear-gradient(to right, #21d397 0%, #7450fe 100%);
+  padding: 10px 25px;
+  font-weight: 600;
+  background-size: 200% auto;
+  letter-spacing: 1.5px;
 }
 
 /* <!-- 8. Awal Section Our Pricing Plans  / oop --> */
 .content.card-our-pricing-plans {
   justify-content: center;
+}
+.col-md-6 {
+  flex: 0 0 auto;
+  width: 100% !important;
 }
 .card-opp {
   width: 270px;
@@ -373,10 +397,9 @@ footer {
   justify-content: space-between;
   border: 1px;
   border-radius: 5px;
-  margin-bottom: 100px;
 }
 .container-footer {
-  text-align: left;
+  text-align: center;
 }
 .img-robovision {
   width: 40px;
@@ -389,10 +412,13 @@ footer {
 .text-header-robovision {
   color: #ccc;
   font-size: 11pt;
+  text-align: center;
+  margin: 0px 50px;
 }
 .kolom {
   box-sizing: border-box;
   color: #fff;
+  padding-top: 70px !important;
 }
 .kolom.robovision {
   flex: 3.5;
@@ -427,6 +453,11 @@ a p {
 
 /*  | *********** RESPONSIVE  tampilan website ********** |*/
 @media (min-width: 769px) {
+  /* Btn umum */
+  .btn-primary {
+    font-size: 15px;
+  }
+
   /* <!-- 1. Awal Section  Creative landing page template--> */
   .home {
     width: 50%;
@@ -544,9 +575,7 @@ a p {
     box-sizing: border-box;
     display: flex;
   }
-  .result {
-    /* padding-left: 50px; */
-  }
+
   .gambar-result {
     width: 100%;
   }
@@ -575,6 +604,10 @@ a p {
   }
   .img-cof-about {
     height: 90%;
+  }
+  img.img-cof-about {
+    width: 100%;
+    padding-bottom: 15px;
   }
   .modal-cof {
     box-sizing: border-box;
@@ -629,6 +662,10 @@ a p {
     display: flex;
     justify-content: center;
   }
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 30% !important;
+  }
 
   /* <!-- 10. Awal Section Footer --> */
   .container-footer {
@@ -650,5 +687,29 @@ a p {
 
   .readmore {
     margin: 12px;
+  }
+  .text-header-robovision {
+    color: #ccc;
+    font-size: 11pt;
+    text-align: justify;
+    width: 310px;
+    margin: 0px 0px;
+  }
+  .kolom {
+    box-sizing: border-box;
+    color: #fff;
+  }
+  .kolom.robovision {
+    flex: 3.5;
+    padding-right: 10px;
+  }
+  .kolom.privacy-tos {
+    flex: 3;
+  }
+  .kolom.navigate {
+    flex: 2.5;
+  }
+  .kolom.contact-us {
+    flex: 3;
   }
 }
