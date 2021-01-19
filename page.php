@@ -36,8 +36,8 @@
                 <h1 class="bold h1-home">IT Automation Experts for AI Soluations and job Schaduling.</h1>
                 <p>Lorem ipsum dolor sit amet, adipisicing elit. Quod corrupti laborum, quasi? Dolor sapiente amet optio harum dolores, voluptate, tempora dolorem fugiat fuga autem .</p>
                 <div class="btn-home">
-                    <div class="btn">contact us</div>
-                    <div class="btn">learn more</div>
+                    <div class="btn  btn-primary">contact us</div>
+                    <div class="btn  btn-primary">learn more</div>
                 </div>
             </div>
         </div>
@@ -280,10 +280,10 @@
                         <img src="img/about/about3.svg" alt="img_about-3" class="frequntly">
                     </div>
                     <div class="menu-frequntly">
-                        <a href="" class="btn btn-primary btn-frequntly">What are the objectives of this Software?</a>
-                        <a href="" class="btn btn-primary btn-frequntly">What is the best features and services we deiver?</a>
-                        <a href="" class="btn btn-primary btn-frequntly">Why this app important to me?</a>
-                        <a href="" class="btn btn-primary btn-frequntly">how may I take part in and purchase this Software?</a>
+                        <a href="" class="btn btn-frequntly">What are the objectives of this Software?</a>
+                        <a href="" class="btn btn-frequntly">What is the best features and services we deiver?</a>
+                        <a href="" class="btn btn-frequntly">Why this app important to me?</a>
+                        <a href="" class="btn btn-frequntly">how may I take part in and purchase this Software?</a>
                     </div>
                 </div>
             </div>

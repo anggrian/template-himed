@@ -71,14 +71,14 @@ p.text-content {
   width: 280px;
   font-weight: 600;
 }
-.btn-home .btn {
+/* .btn-home .btn {
   color: #fff;
   border: 1px solid #f2f4f8;
   border-top: 1px solid #f2f4f8;
   border-radius: 25px;
   background-image: linear-gradient(to right, #21d397 0%, #7450fe 100%);
   padding: 10px 30px;
-  font-weight: 600;
+  font-weight: 600; */
 }
 /* 2 */
 /* Section 2, Real Time chat ( Features) */
@@ -260,6 +260,7 @@ img.img-our-services {
 /* tombol umum 
 -> btn frequntly, btn our pricing plans */
 .btn-primary {
+  text-transform: uppercase;
   color: #fff;
   border: 1px solid #f2f4f8;
   border-top: 1px solid #f2f4f8;
@@ -451,9 +452,9 @@ a p {
     font-weight: 600;
   }
 
-  .btn-home .btn {
+  /* .btn-home .btn {
     display: inline-block;
-  }
+  } */
   .result {
     width: 60%;
   }
@@ -610,6 +611,17 @@ a p {
   .btn-frequntly {
     width: 100%;
     text-align: left;
+  }
+  .btn-frequntly {
+    color: #fff;
+    border: 1px solid #f2f4f8;
+    border-top: 1px solid #f2f4f8;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #21d397 0%, #7450fe 100%);
+    padding: 5px 25px;
+    font-weight: 600;
+    background-size: 200% auto;
   }
 
   /* <!-- 8. Awal Section Our Pricing Plans  / oop --> */
