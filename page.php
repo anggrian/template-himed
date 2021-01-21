@@ -45,7 +45,7 @@
     <!-- 1. Akhir Section  Creative landing page template (HOME)-->
 
     <!------- Bagian Section 2 Realtime live chat (features) ------->
-    <section class="section-dua">
+    <section class="section-dua faq-timeline-area">
         <div class="container">
             <div class="realtime">
                 <div class="realtime-col realtime-col-satu">
@@ -78,7 +78,7 @@
     <!------- Bagian Akhir Section 2 ------->
 
     <!-- 3. Awal Section  A Straight Forward -->
-    <section style="background-color: white;">
+    <section class="bub-right">
         <div class="container container-result">
             <div class="result">
                 <h4>A Straight Forward Structare for Powerful Results.</h4>
@@ -94,7 +94,7 @@
     <!-- 3. Akhir Section  A Straight Forward -->
 
     <!-- 4. Awal Section  How it works-->
-    <section>
+    <section class="hex-pat-1">
         <div class="container">
             <div class="content">
                 <div class="header-content">
@@ -145,7 +145,7 @@
     <!-- 4. Akhir Section How it works -->
 
     <!-- 5. Awal Section  Core Our Features-->
-    <section>
+    <section class="bub-right">
         <div class="container">
             <div class="content">
                 <div class="header-content">
@@ -206,7 +206,7 @@
     <!-- 5. Akhir Section Core Our Features -->
 
     <!-- 6. Awal Section Our Services -->
-    <section>
+    <section class="hex-pat-1">
         <div class="container">
             <div class="content">
                 <div class="header-content">
@@ -267,7 +267,7 @@
     <!-- 6. Akhir Section Our Services -->
 
     <!-- 7. Awal Section Frequently Questions -->
-    <section>
+    <section class="faq-timeline-area">
         <div class="container">
             <div class="content">
                 <div class="header-content">
@@ -292,7 +292,7 @@
     <!-- 7. Akhir Section Frequently Questions -->
 
     <!-- 8. Awal Section Our Pricing Plans  / oop -->
-    <section>
+    <section style="background: #edf6fd;">
         <div class="container">
             <div class="content">
                 <div class="header-content">
@@ -366,7 +366,7 @@
     <!-- 8. Akhir Section Our Pricing Plans -->
 
     <!-- 9. Awal Section Loved By Our Clients -->
-    <section>
+    <section class="faq-timeline-area">
         <div class="container">
             <div class="content">
                 <div class="header-content">

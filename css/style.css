@@ -21,7 +21,7 @@ section {
 p.text-content {
   max-width: 500px;
   margin: 0 auto;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   opacity: 80%;
 }
 /* Untuk tampilan mobile / Hanphone */
@@ -30,7 +30,7 @@ p.text-content {
   background-size: cover;
   background-image: url(../img/bg/ai2.png);
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: 28% 50%;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -142,11 +142,6 @@ p.text-content {
   text-align: center;
 }
 
-.card-satu {
-  background-color: #007bff;
-  text-align: center;
-}
-
 .card-dua {
   background-color: #007bff;
   text-align: center;
@@ -193,6 +188,9 @@ p.text-content {
   width: 60%;
 }
 /* <!-- 4. Awal Section  How it works--> */
+.hex-pat-1 {
+  background: url(../img/bg-section/hex-pattern.svg) no-repeat center left;
+}
 .service_icon {
   padding-top: 20px;
 }
@@ -215,12 +213,14 @@ h6.bold {
 }
 
 /* <!-- 5. Awal Section  Core Our Features--> */
-
+.bub-right {
+  background: url(../img/bg-section/bg_hero.svg) no-repeat center right;
+}
 img.img-cof-about {
   padding: 30px;
   margin: auto;
   display: block;
-  width: 70%;
+  width: 80%;
 }
 img.img-cof-feature {
   padding-top: 15px;
@@ -254,6 +254,10 @@ img.img-our-services {
 }
 
 /* <!-- 7. Awal Section Frequently Questions --> */
+.faq-timeline-area {
+  background: url(../img/bg-section/bread-bg.png) no-repeat center center;
+  background-size: cover;
+}
 /* image frequently */
 .frequntly {
   height: 230px;
@@ -451,6 +455,34 @@ a p {
   margin-inline-end: 0px;
 }
 
+/*  | *********** RESPONSIVE  tampilan tablet ********** |*/
+@media (min-width: 426px) and (max-width: 768px) {
+  section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .kolom-lom {
+    width: 46%;
+  }
+  .card.shadow {
+    margin: 10px 100px;
+  }
+
+  .card .header {
+    height: 170px;
+  }
+  img.img-our-services {
+    width: 40%;
+  }
+  img.img-cof-about {
+    padding: 10px;
+    width: 50%;
+  }
+  p.text-content {
+    padding-bottom: 30px;
+  }
+}
+
 /*  | *********** RESPONSIVE  tampilan website ********** |*/
 @media (min-width: 769px) {
   /* Btn umum */
@@ -459,6 +491,15 @@ a p {
   }
 
   /* <!-- 1. Awal Section  Creative landing page template--> */
+  .section-home {
+    background-size: cover;
+    background-image: url(../img/bg/ai2.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
   .home {
     width: 50%;
   }
@@ -479,7 +520,7 @@ a p {
     margin-bottom: 30px;
     margin-top: 0;
     line-height: 1.9;
-    width: 95%;
+    width: 80%;
     font-weight: 600;
   }
 
@@ -581,6 +622,7 @@ a p {
   }
 
   /* <!-- 4. Awal Section  How it works--> */
+
   .card-hiw {
     display: flex;
   }
@@ -598,6 +640,7 @@ a p {
   }
 
   /* <!-- 5. Awal Section  Core Our Features--> */
+
   .content-cof {
     display: flex;
     align-items: center;
@@ -632,6 +675,7 @@ a p {
   }
 
   /* <!-- 7. Awal Section Frequently Questions --> */
+
   .content-frequntly {
     display: flex;
   }
